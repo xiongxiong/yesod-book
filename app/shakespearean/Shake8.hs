@@ -1,5 +1,7 @@
 {-# LANGUAGE QuasiQuotes, OverloadedStrings #-}
 
+module Shake8 where
+
 import Text.Shakespeare.Text
 import qualified Data.Text.Lazy.IO as TLIO
 import Data.Text (Text)

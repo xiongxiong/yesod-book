@@ -27,7 +27,7 @@ library:
 
 executables:
   yesod-book-exe:
-    main:                shakespearean/Shake8.hs
+    main:                widget/Widget2.hs
     source-dirs:         app
     ghc-options:
     - -threaded
@@ -38,6 +38,7 @@ executables:
     - text
     - blaze-html
     - shakespeare
+    - yesod
 
 tests:
   yesod-book-test:
