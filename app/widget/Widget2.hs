@@ -1,5 +1,7 @@
 {-# LANGUAGE OverloadedStrings, QuasiQuotes, TemplateHaskell, TypeFamilies #-}
 
+module Widget2 where
+
 import Yesod
 
 data App = App

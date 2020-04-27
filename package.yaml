@@ -27,7 +27,7 @@ library:
 
 executables:
   yesod-book-exe:
-    main:                widget/Widget2.hs
+    main:                typeclass/Tc3.hs
     source-dirs:         app
     ghc-options:
     - -threaded
@@ -37,8 +37,11 @@ executables:
     - yesod-book
     - text
     - blaze-html
+    - blaze-builder
     - shakespeare
     - yesod
+    - http-types
+    - time
 
 tests:
   yesod-book-test:
